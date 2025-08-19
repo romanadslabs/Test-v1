@@ -68,7 +68,7 @@ $logFile = $logDir . '/leads.log';
 $sent = @mail($to, $subject, $body, implode("\r\n", $headers));
 
 if ($sent) {
-    header('Location: /success_files/style.css'); // Temporary success ping; replace with success page if needed
+    header('Location: /success.html');
     exit;
 }
 
