@@ -1,0 +1,149 @@
+#main-container {
+	max-width: 450px;
+	margin: 30px auto;
+}
+
+.custom-regbox {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.form-container {
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+.form-container {
+	position: relative;
+	/* z-index: 999999; */
+	border-radius: 20px;
+	/* padding-left: 20px; */
+	/* padding-right: 20px; */
+	/* padding-top: 23px; */
+	padding-bottom: 1px;
+	max-width: 500px;
+	border-radius: 7px 6px 6px 6px;
+	background: rgba(255, 255, 255, 0);
+	/* box-shadow: 0px 4px 20.9px 3.1px rgba(13, 13, 13, 0.43); */
+}
+
+#custom-regbox .formHeader {
+	white-space: normal;
+	word-break: break-word;
+}
+#custom-regbox .formHeader {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+#custom-regbox .formHeader {
+	background: #60359b;
+	text-align: center;
+	color: black;
+	font-weight: 700;
+	margin: 0;
+	padding: 30px 24px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-family: inherit;
+}
+
+.formwrap-outer .intgrtn-form-signup {
+	padding: 20px;
+}
+.form-section {
+	box-shadow: 0px 4px 20.9px 3.1px rgba(13, 13, 13, 0.43);
+}
+.phone {
+	width: 100%;
+	min-height: 30px;
+	outline: none;
+	position: relative;
+	z-index: 3;
+	background-position: 50% 50%;
+	background-repeat: no-repeat !important;
+	border: 1px solid #bbb;
+}
+.reg-form__preloader.hidden1 {
+	display: none;
+}
+.intgrtn-form-signup,
+.intgrtn-form-signup *,
+.intgrtn-form-signup-3-steps,
+.intgrtn-form-signup-3-steps *,
+.intgrtn-form-optin,
+.intgrtn-form-optin *,
+.intgrtn-form-contact-us,
+.intgrtn-form-contact-us *,
+.intgrtn-form-contact-request-message,
+.intgrtn-form-contact-request-message * {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+	text-indent: 0;
+	text-align: left;
+}
+
+.reg-form__preloader {
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-container > div + div {
+	margin-top: 15px;
+}
+.form__group .form__group-input {
+	margin-top: 15px;
+}
+
+form.form-container button {
+	display: flex;
+	justify-content: center;
+	height: 40px;
+	border-radius: 10px;
+	opacity: 0.75;
+	cursor: pointer;
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	color: #fff;
+	background: #dd673e;
+	margin-top: 35px;
+}
+
+#name {
+	padding-left: 15px;
+	width: 100%;
+	border: 1px solid grey;
+	height: 45px;
+}
+#lastname {
+	padding-left: 15px;
+	width: 100%;
+	border: 1px solid grey;
+	height: 45px;
+}
+#email {
+	padding-left: 15px;
+	width: 100%;
+	border: 1px solid grey;
+	height: 45px;
+}
+.phone {
+	width: 100%;
+	border: 1px solid grey;
+	height: 45px;
+}
+
+input {
+	caret-color: black;
+}

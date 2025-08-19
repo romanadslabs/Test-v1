@@ -1,0 +1,568 @@
+.form {
+    position: relative;
+    width: 100%;
+}
+
+.form_popup {
+    margin: 0 auto;
+}
+
+.button {
+    width: 100%;
+    padding: 20px 0;
+    color: #1d1e20;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    background: linear-gradient(180deg, #fec303 43.75%, #de8500 100%);
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+    background: #fec303;
+}
+
+.button:active {
+    background: #c79800;
+}
+
+.intl-tel-input .country-list .country-name {
+    font-weight: 400 !important;
+}
+
+@media screen and (min-width: 1200px) {
+    .video {
+        max-width: 750px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ul a {
+        margin-bottom: 5px;
+    }
+}
+
+.signup {
+    padding: 15px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    background: linear-gradient(180deg, #00d000 23.81%, #00a000 76.19%);
+}
+
+.signup img {
+    margin-right: 10px;
+}
+
+.button img {
+    margin-left: 10px;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.req {
+    margin-top: 15px;
+}
+
+.form--title-wrp {
+    position: relative;
+}
+
+.form--title-wrp::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-image: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    right: 20px;
+}
+
+.step-1 {
+    max-width: 470px;
+    width: 470px;
+}
+
+.form--title {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 54px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    max-width: 470px;
+}
+
+.data_safe {
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.data_safe--text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: left;
+    color: #000a1d;
+}
+
+.data_safe--lock_Wrapper {
+    box-sizing: border-box;
+    padding-right: 19px;
+}
+
+.form--control_row {
+    justify-content: space-between;
+}
+
+.form--control_wrapper-col_50 {
+    width: calc(50% - 10px);
+}
+
+.form--control_wrapper {
+    position: relative;
+}
+
+.form--control {
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    outline: 0;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 15px 30px 15px 10px;
+}
+
+.form--floating_label {
+    position: absolute;
+    z-index: 1;
+    transition: 0.3s ease all;
+    font-size: 12px;
+    line-height: 14px;
+    pointer-events: none;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0 3px;
+    left: 52px;
+    top: -15px;
+}
+
+.form--control:placeholder-shown:not(:focus) ~ .form--floating_label {
+    top: 12px;
+    left: 62px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    background: 0 0;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form--control_wrapper {
+    margin-bottom: 20px;
+}
+
+.step-1 .form--control_wrapper {
+    margin-bottom: 15px;
+}
+
+.step-1 .button {
+    margin-top: 25px;
+}
+
+.form--control_outer {
+    max-width: 470px;
+}
+
+.form--control-password {
+    width: 66%;
+}
+
+.form--control_wrapper- {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.form--btn-pasword {
+    width: 34%;
+    background: #fafaff;
+    box-sizing: border-box;
+    border-style: none;
+    padding: 5px 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0176ea;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group-addon {
+    position: relative;
+    width: 55px;
+    height: 50px;
+    background: #fec303;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.input-group-addon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.phone {
+    width: 100%;
+}
+
+.flex-link {
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+}
+
+.flex-link a {
+    font: inherit;
+    margin: 0 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+.phone::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(250, 250, 255, 0.5);
+}
+
+.checkbox-svg p {
+    margin-left: 10px !important;
+    line-height: 1;
+}
+
+.privacy-checkbox p {
+    color: #000;
+}
+
+.privacy-checkbox p a {
+    text-decoration: underline;
+}
+
+.form--submit {
+    height: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    width: 100%;
+    text-transform: uppercase;
+    color: #0176ea;
+    font-family: Roboto;
+    background-color: #fff;
+    border: none;
+}
+
+.valid-block {
+    position: absolute;
+    background: #fafaff;
+    border: 1px solid #ff003c;
+    box-sizing: border-box;
+    z-index: 9996;
+    top: 40px;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.valid-check {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.valid-check label {
+    color: #fff;
+    padding: 5px 25px;
+    position: relative;
+    text-align: left;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1;
+    margin: 0;
+}
+
+.valid-check label::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    width: 12px;
+    height: 11px;
+    background-image: url(../images/form/password_hints_false.svg);
+    background-size: 80%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.valid-check.check label {
+    color: #fec303 !important;
+}
+
+.valid-check.check label::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    width: 12px;
+    height: 11px;
+    background-image: url(../images/form/password_hints_true.svg);
+    background-size: 80%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+input.error {
+    /* background: rgba(255, 0, 60, .3); */
+    border: 2px solid #ff003c !important;
+    border-radius: 0px 5px 5px 0px;
+    background-image: url(../images/form/error-pass_icon.svg);
+    background-repeat: no-repeat;
+    background-position: 96% 65%;
+}
+
+label.error {
+    position: absolute;
+    top: 35px !important;
+    right: 0 !important;
+    z-index: 2 !important;
+    width: auto !important;
+    left: 0 !important;
+    background-color: #e30d17 !important;
+    color: #fafaff !important;
+    font-size: 10px !important;
+    padding: 5px 5px 5px 5px !important;
+    background-position: 10px 50% !important;
+    background-size: 16px !important;
+    border-radius: 0px 0px 5px 5px !important;
+}
+
+.intl-tel-input.allow-dropdown .flag-container,
+.intl-tel-input.separate-dial-code .flag-container {
+    z-index: 3;
+}
+
+input.valid {
+    /* background: rgba(0, 67, 9, .3); */
+    border: 2px solid green !important;
+    outline-color: green;
+    border-radius: 0px 5px 5px 0px;
+    background-repeat: no-repeat;
+    background-image: url(../images/check.svg);
+    background-size: 22px 22px;
+    background-position: 96% !important;
+    padding-right: 40px !important;
+}
+
+.valid-blockP {
+    top: 62px !important;
+}
+
+.phone-hint {
+    margin: 11px 0 19px;
+}
+
+.phoneInfo {
+    max-width: 320px;
+}
+
+.phoneInfo h6 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fec303;
+    margin-bottom: 10px;
+}
+
+.phoneInfo p {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.contact_manager {
+    width: 110px;
+    height: 115px;
+    overflow: hidden;
+}
+
+.images-contact_manager {
+    min-height: 100%;
+}
+
+.password-generate__buttons {
+    text-align: center;
+}
+
+.head-title {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.form--control_wrapper-col_50 .form--control.valid {
+    background-position: 90% !important;
+}
+
+.form--control {
+    text-overflow: ellipsis;
+}
+
+#sms_code-error {
+    top: 85px;
+}
+
+.preloader {
+    display: none;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9995;
+    background-image: url(../images/preloader.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.5;
+}
+
+.form--control_wrapper-password label.error {
+    display: none !important;
+}
+
+@media (max-width: 1023px) {
+    .button {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .form--control_wrapper-col_50 {
+        margin-bottom: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form--control:placeholder-shown:not(:focus) ~ .form--floating_label {
+        left: 52px;
+    }
+
+    .form .row {
+        flex-direction: column;
+    }
+
+    .form--control_wrapper-col_50 {
+        width: 100% !important;
+    }
+
+    .form--control_wrapper.button {
+        margin-bottom: 15px;
+    }
+
+    .button {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .input-group-addon {
+        height: 40px;
+    }
+
+    .select-css {
+        top: 8px;
+    }
+
+    .contact_manager {
+        display: none;
+    }
+
+    .form--title_br-mob {
+        display: inline;
+    }
+
+    .form--title {
+        padding-bottom: 40px;
+    }
+
+    .form--control {
+        height: 40px;
+    }
+
+    .form--control:placeholder-shown:not(:focus) ~ .form--floating_label {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .form--control {
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+    label.error {
+        top: 37px;
+    }
+
+    .valid-block {
+        top: 60px;
+    }
+
+    .form--submit {
+        background-color: #fff;
+        padding: 0;
+        color: #0176ea;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .form--btn-pasword {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .privacy-checkbox {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .data_safe--text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .form--control_wrapper {
+        margin-bottom: 10px !important;
+    }
+}
