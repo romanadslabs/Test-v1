@@ -774,7 +774,7 @@
                            su primera inversión. hacer.
                            <i
                            >El importe mínimo de un depósito es de 3.500
-                              <spam class="currency">$</spam>
+                              <span class="currency">$</span>
                            </i
                            >.
                         </p>
@@ -1021,7 +1021,7 @@
                      <p>
                         El uso de nuestra plataforma es totalmente gratuito. Usted
                         sólo necesita su 3.500
-                        <spam class="currency">$</spam>
+                        <span class="currency">$</span>
                         Capital inicial para invertir y de comercio.
                      </p>
                   </div>
@@ -1164,8 +1164,9 @@
     }
 </style>
 
-<script src="./registerForm/intlTelInput/js/intlTelInput.js" type="module"></script>
-<script src="./registerForm/registerForm.js" type="module"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="./registerForm/intlTelInput/js/intlTelInput.js"></script>
+<script src="./registerForm/registerForm.js"></script>
 
 
 </body>
